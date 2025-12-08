@@ -21,7 +21,7 @@ const PROJECTS = [
     title: "Stock Portfolio Optimization Tool",
     tech: "Python · Pandas · Regression",
     description:
-      "Predicts expected stock returns using regression on moving averages, then suggests an optimized portfolio designed to improve risk-adjusted performance.",
+      "Predicts expected stock returns using Random Forest regressor model on various features like SMA, EMA, 20-day rolling volatility, then suggests an optimized portfolio designed to improve risk-adjusted performance.",
     videoType: "mp4",
     videoSrc: "assets/media/Portfolio_optimization_vid.mp4",
     coverImage: "assets/media/stocks_cover.jpg",
