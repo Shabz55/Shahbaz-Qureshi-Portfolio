@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahbaz Qureshi | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- ============= LEFT SIDEBAR ============= -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="me-block">
+          <div class="me-name">Shahbaz Qureshi</div>
+          <div class="me-role">Computer Science · University of Alberta</div>
+          <div class="me-blurb">
+            4th year B.Sc. Computing Science (minor in Economics), graduating April 2026.
+            I like building practical tools like mobile apps, data tools, and small systems
+            that actually solve problems.
+          </div>
+        </div>
+
+        <nav class="side-nav">
+          <a href="#about" class="side-nav-link">About</a>
+          <a href="#projects" class="side-nav-link">Projects</a>
+          <a href="#experience" class="side-nav-link">Experience</a>
+          <a href="#contact" class="side-nav-link">Contact</a>
+        </nav>
+
+        <div class="side-box">
+          <div class="side-heading">Core Skills</div>
+          <ul class="side-list">
+            <li>Python, C, C++, Java</li>
+            <li>Swift / iOS</li>
+            <li>Data Structures & Algorithms</li>
+            <li>Machine Learning basics</li>
+            <li>Relational DBs (SQLite)</li>
+          </ul>
+        </div>
+
+        <div class="side-box">
+          <div class="side-heading">Contact</div>
+          <ul class="side-list">
+            <li>
+              <a href="mailto:shahbaz.q2003@gmail.com">shahbaz.q2003@gmail.com</a>
+            </li>
+            <li>
+              <a href="https://github.com/Shabz55" target="_blank" rel="noopener noreferrer">
+                github.com/Shabz55
+              </a>
+            </li>
+            <li>Edmonton, AB</li>
+          </ul>
+        </div>
+
+        <div class="side-footer">
+          <small>© <span id="year"></span> Shahbaz Qureshi</small>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ============= MAIN CONTENT ============= -->
+    <main class="main">
+
+      <!-- ===== ABOUT ===== -->
+      <section id="about" class="section-block">
+        <h2 class="section-title">About</h2>
+
+        <p class="text-lg">
+          I'm interested in internships and new grad software roles where I can solve real life problems through my technical skills and ship features that real people actually use.
+        </p>
+
+        <div class="highlight-box">
+          <div class="highlight-row">
+            <div class="highlight-label">Degree</div>
+            <div class="highlight-value">
+              B.Sc. Computer Science<br />
+              Minor in Economics
+            </div>
+          </div>
+          <div class="highlight-row">
+            <div class="highlight-label">University</div>
+            <div class="highlight-value">University of Alberta</div>
+          </div>
+          <div class="highlight-row">
+            <div class="highlight-label">Grad Date</div>
+            <div class="highlight-value">April 2026</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PROJECTS ===== -->
+      <section id="projects" class="section-block">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-desc">
+          A few things I've built. Each card has a short description, a demo video, and the GitHub repo.
+        </p>
+
+        <div id="projectsGrid" class="projects-grid">
+          <!-- Cards will be injected here by main.js -->
+        </div>
+        <button id="viewMoreBtn" class="view-more-btn">
+        View More Projects
+        </button>
+
+      </section>
+
+      <!-- ===== EXPERIENCE ===== -->
+      <section id="experience" class="section-block">
+        <h2 class="section-title">Work Experience</h2>
+
+        <article class="exp-card">
+          <div class="exp-top">
+            <div class="exp-role">Delivery Driver</div>
+            <div class="exp-meta">
+              <span class="exp-company">Uber</span> ·
+              <span class="exp-dates">Jan 2024 – Present</span>
+            </div>
+          </div>
+          <ul class="exp-points">
+            <li>Maintained strong customer ratings while working in time-pressure environments.</li>
+            <li>Managed routing, timing, and communication independently.</li>
+          </ul>
+        </article>
+
+        <article class="exp-card">
+          <div class="exp-top">
+            <div class="exp-role">Vegetation Management Technician</div>
+            <div class="exp-meta">
+              <span class="exp-company">Ace Vegetation</span> ·
+              <span class="exp-dates">May 2023 – Aug 2023</span>
+            </div>
+          </div>
+          <ul class="exp-points">
+            <li>Supported vegetation projects on client sites across multiple locations.</li>
+            <li>Helped maintain service quality and client relationships.</li>
+          </ul>
+        </article>
+
+        <article class="exp-card">
+          <div class="exp-top">
+            <div class="exp-role">Barista / Cashier</div>
+            <div class="exp-meta">
+              <span class="exp-company">Booster Juice</span> ·
+              <span class="exp-dates">Jan 2022 – Apr 2023</span>
+            </div>
+          </div>
+          <ul class="exp-points">
+            <li>Worked through busy rushes while keeping orders accurate and fast.</li>
+            <li>Kept front-of-house running smoothly during peak times.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section id="contact" class="section-block">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-desc">
+          Want to talk about a role or project? Feel free to reach out.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-field">
+            <div class="contact-label">Email</div>
+            <a class="contact-value" href="mailto:shahbaz.q2003@gmail.com">
+              shahbaz.q2003@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-field">
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+1 (587) 778-3239</div>
+          </div>
+
+          <div class="contact-field">
+            <div class="contact-label">GitHub</div>
+            <a
+              class="contact-value"
+              href="https://github.com/Shabz55"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/Shabz55
+            </a>
+          </div>
+
+          <div class="contact-field">
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Edmonton, AB</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+    <!-- Project overlay / modal -->
+  <div id="projectModal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+
+    <div class="modal-dialog">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close project details">
+        ×
+      </button>
+
+      <div class="modal-content">
+        <h3 class="modal-title" id="modalTitle"></h3>
+        <p class="modal-tech" id="modalTech"></p>
+
+        <div class="modal-video" id="modalVideo"></div>
+
+        <p class="modal-desc" id="modalDesc"></p>
+
+        <div class="modal-actions">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="modal-github-btn"
+            id="modalGithub"
+          >
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
