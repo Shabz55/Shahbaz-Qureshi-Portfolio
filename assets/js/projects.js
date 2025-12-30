@@ -30,7 +30,7 @@ const PROJECTS = [
   {
     id: 2,
     title: "Event Lottery System App",
-    tech: "Java",
+    tech: "Java · Android",
     description:
       "Android Java app for signing up for user created events that uses a lottery system to select attendees. Users can sign up for events that are created by organizers through the app or a randomly generated QR code. Admins can overview all the activity and remove any content that violates the terms and conditions. Powered by Firebase backend and Google maps API integration. Collaborated with 5 other people and took part in regular scrum meeting and sprint reviews",
     videoType: null, 
