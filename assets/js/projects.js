@@ -36,6 +36,15 @@ const PROJECTS = [
     videoType: null, 
     videoSrc: "",
     github: "https://github.com/CMPUT301F25-kraken/krakenhax",
+  },{
+    id: 3,
+    title: "Pong Game Recreation",
+    tech: "Python · Pygame · OOP",
+    description:
+      "Recreated the classic Pong game using Pygame with a clean object-oriented design for paddles, ball, and game loop. Includes ball physics, scoring, and restart behavior.",
+    videoType: null,
+    videoSrc: "", 
+    github: "https://github.com/Shabz55/Pong.py",
   },
   {
     id: 4,
@@ -46,15 +55,5 @@ const PROJECTS = [
     videoType: null, 
     videoSrc: "",
     github: "https://github.com/Shabz55",
-  },
-  {
-    id: 3,
-    title: "Pong Game Recreation",
-    tech: "Python · Pygame · OOP",
-    description:
-      "Recreated the classic Pong game using Pygame with a clean object-oriented design for paddles, ball, and game loop. Includes ball physics, scoring, and restart behavior.",
-    videoType: null,
-    videoSrc: "", 
-    github: "https://github.com/Shabz55/Pong.py",
   },
 ];
