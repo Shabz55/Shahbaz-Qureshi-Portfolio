@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 304" role="img" aria-labelledby="title description">
+  <title id="title">PromptED</title>
+  <desc id="description">PromptED AI-Assisted Learning welcome screen</desc>
+  <rect width="530" height="304" fill="#f5f8f5"/>
+  <text
+    x="265"
+    y="119"
+    fill="#286247"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="78"
+    font-weight="700"
+    letter-spacing="-1"
+    text-anchor="middle"
+  >PromptED</text>
+  <text
+    x="265"
+    y="198"
+    fill="#4e6b58"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="17"
+    letter-spacing="1.2"
+    text-anchor="middle"
+  >AI-Assisted Learning</text>
+  <text
+    x="265"
+    y="249"
+    fill="#75967d"
+    font-family="Arial, sans-serif"
+    font-size="16"
+    text-anchor="middle"
+  >Enter your instructor's session PIN to join the live</text>
+  <text
+    x="265"
+    y="273"
+    fill="#75967d"
+    font-family="Arial, sans-serif"
+    font-size="16"
+    text-anchor="middle"
+  >discussion.</text>
+</svg>

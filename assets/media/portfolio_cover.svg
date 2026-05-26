@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 474" role="img" aria-labelledby="title description">
+  <title id="title">Portfolio growth</title>
+  <desc id="description">Green upward trending portfolio chart arrow</desc>
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="45%" r="68%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f4f3"/>
+    </radialGradient>
+  </defs>
+  <rect width="612" height="474" fill="url(#paper)"/>
+  <path
+    d="M75 333 116 298 157 328 219 275 265 309 339 235 390 272 493 176"
+    fill="none"
+    stroke="#5eb21d"
+    stroke-width="20"
+    stroke-linejoin="miter"
+  />
+  <path d="M475 145 548 127 527 200Z" fill="#5eb21d"/>
+</svg>
