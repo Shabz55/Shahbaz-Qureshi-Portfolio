@@ -46,12 +46,13 @@ export const projects: Project[] = [
   {
     title: "PromptED",
     category: "AI Teaching Platform",
-    tech: ["Next.js", "React", "PostgreSQL", "RAG"],
+    tech: ["Next.js", "React", "PostgreSQL", "RAG", "Vector embeddings"],
     description:
       "An AI-powered teaching platform built for a client to support classroom discussion planning, live participation, and instructor decision making.",
     highlights: [
-      "Translated stakeholder requirements into 68 user stories and 35 MVP features",
-      "Delivered full-stack features across five Agile sprints in a seven-member team",
+      "Worked in a seven-member Agile team to translate stakeholder requirements into 68 user stories and 35 MVP features",
+      "Helped implement RAG with vector embeddings to retrieve lesson content for contextual classroom prompts",
+      "Developed, tested, and debugged full-stack functionality with Next.js, React, PostgreSQL, GitHub, and CI/CD across five Agile sprints",
     ],
     liveUrl: "https://pmcol.vercel.app/",
     featured: true,
@@ -156,14 +157,25 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: "Mental Health Resource Finder",
+    category: "Volunteer Project · Jack.org",
+    tech: ["Application logic", "Structured filtering", "Resource data"],
+    description:
+      "A deployed mental health resource finder that uses user responses to connect people with relevant support services.",
+    highlights: [
+      "Developed and deployed a resource finder during a volunteer project with Jack.org",
+      "Designed structured filtering logic and organized resource data to turn user inputs into targeted recommendations",
+    ],
+  },
+  {
     title: "Stock Portfolio Optimizer",
     category: "Machine Learning",
-    tech: ["Python", "Pandas", "Random Forest"],
+    tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "SciPy", "Streamlit", "Power BI"],
     description:
       "A data pipeline that models expected stock returns from technical indicators and produces an optimized portfolio.",
     highlights: [
-      "Features SMA, EMA, and rolling volatility",
-      "Focuses on risk-adjusted allocation",
+      "Engineered features, trained forecasting models, optimized allocations, and backtested performance across multi-year stock data",
+      "Created Streamlit and Power BI dashboards, CSV/Excel reports, and PostgreSQL-ready SQL schemas",
     ],
     github: "https://github.com/Shabz55/Stock-Portfolio-Optimization",
     featured: true,
@@ -236,11 +248,12 @@ export const projects: Project[] = [
   {
     title: "Event Lottery System",
     category: "Android Application",
-    tech: ["Java", "Firebase", "Google Maps API"],
+    tech: ["Java", "Firebase Firestore", "Firebase Storage", "Google Maps API"],
     description:
       "A team-built event platform where entrants join lotteries by QR code and organizers manage attendee selection.",
     highlights: [
-      "Organizer, entrant, and administrator workflows",
+      "Replaced first-come, first-served signup with lottery-based registration for high-demand events",
+      "Integrated real-time event data, poster uploads, waitlists, entrant mapping, notifications, and status tracking",
       "Developed in a six-person Scrum team",
     ],
     github: "https://github.com/CMPUT301F25-kraken/krakenhax",
@@ -265,46 +278,49 @@ export const projects: Project[] = [
   },
 ];
 
-export const stack = [
-  "Python",
-  "Swift",
-  "Java",
-  "C++",
-  "React",
-  "SQL",
-  "Firebase",
-  "Pandas",
+export const skillGroups = [
+  { name: "Full-stack development", skills: ["React", "Next.js", "TypeScript", "JavaScript", "Node.js", "Python", "Java", "REST APIs", "FastAPI"] },
+  { name: "AI & machine learning", skills: ["RAG", "Vector embeddings", "SAP AI Core", "SAP Generative AI Hub", "Scikit-learn", "TensorFlow", "PyTorch"] },
+  { name: "Software engineering & DevOps", skills: ["Git", "GitHub", "Testing", "Code reviews", "CI/CD", "Agile development"] },
+  { name: "Databases & cloud", skills: ["PostgreSQL", "Supabase", "Firebase Firestore", "SQLite", "AWS"] },
+  { name: "Data & analytics", skills: ["SQL", "Pandas", "NumPy", "SciPy", "Power BI"] },
+];
+
+export const certifications = [
+  { name: "SAP Certified Associate — SAP Generative AI Developer (C_AIG)", issuer: "SAP", dates: "Sep 2026 – Sep 2027" },
+  { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", dates: "Aug 2026 – Aug 2029" },
 ];
 
 export const experience = [
   {
-    role: "Software Engineer",
-    company: "Evernorth Foundation",
-    location: "Vancouver, BC",
-    dates: "Jan 2026 - Present",
+    role: "Data Analyst & Web Developer",
+    company: "Jack.org",
+    location: "Remote · Volunteer project",
+    dates: "Apr 2026 – Jun 2026",
     details: [
-      "Building a responsive website redesign for a non-profit pilot client with an emphasis on accessibility, clear navigation, and senior-friendly usability.",
-      "Collaborating with a developer team to implement the site and document the technology stack, team roles, and design decisions.",
+      "Developed and deployed a mental health resource finder that captures user responses and uses structured filtering to connect users with relevant support services.",
+      "Designed application logic and organized resource data to turn user inputs into targeted recommendations and support a consistent, user-focused digital experience.",
     ],
   },
   {
-    role: "Software Engineer",
+    role: "Full Stack Software Engineer",
     company: "University of Alberta",
-    location: "Edmonton, AB",
-    dates: "Jan 2026 - Apr 2026",
+    location: "Edmonton, AB · Client capstone project",
+    dates: "Jan 2026 – Apr 2026",
     details: [
-      "Developed PromptED, an AI-powered teaching platform for a client in a seven-member Agile team, translating requirements into 68 user stories and 35 MVP features.",
-      "Engineered full-stack functionality with Next.js, React, Supabase/PostgreSQL, CI/CD, and RAG-based AI prompt generation across five Agile sprints.",
+      "Assisted in developing PromptED in a seven-member Agile team, translating stakeholder requirements into 68 user stories and 35 MVP features for classroom discussion planning, participation, and instructor decisions.",
+      "Helped implement retrieval-augmented generation with vector embeddings to retrieve relevant lesson content for contextual AI-generated classroom prompts.",
+      "Developed, tested, and debugged full-stack functionality with Next.js, React, PostgreSQL, GitHub, and CI/CD, contributing to reliable delivery across five Agile sprints.",
     ],
   },
   {
     role: "Vegetation Management Technician",
     company: "Ace Vegetation",
     location: "Nisku, AB",
-    dates: "May 2024 - Sep 2024",
+    dates: "May 2024 – Sep 2024",
     details: [
-      "Entered, updated, and verified client-site records, treatment data, and field documentation for accurate reporting and operational tracking.",
-      "Managed work orders, safety forms, and service documents across more than 100 client sites, supporting organized data workflows and team coordination.",
+      "Entered, updated, and verified client-site records, treatment data, and field documentation, maintaining accurate digital records for reporting and operational tracking.",
+      "Managed work orders, safety forms, and service documents across more than 100 client sites, supporting organized data workflows, documentation accuracy, and team coordination.",
     ],
   },
 ];
